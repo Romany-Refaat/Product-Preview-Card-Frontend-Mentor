@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    background-color: hsl(30, 38%, 92%);
+}
+
+@font-face {
+    font-family: fraunces;
+    src: url(fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: monteserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 2px hsl(37, 7%, 78%);
+}
+
+.image {
+    border-radius: 10px 10px 0 0;
+}
+
+p {
+    padding: 0 30px 0 30px;
+}
+
+.perfume {
+    color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: monteserrat;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+
+.gab {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: fraunces;
+    margin: 10px 0;
+}
+
+.a {
+    font-size: 14px;
+    font-family: monteserrat;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    color: hsl(158, 36%, 37%);
+}
+
+.f4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.f6 {
+    display: inline;
+    position: relative;
+    top: -5%;
+    text-decoration: line-through;
+    left: 135px;
+}
+
+.f6,
+.f4 {
+    font-family: fraunces;
+    color: hsl(158, 36%, 37%);
+}
+
+.sub {
+    width: 90%;
+    position: relative;
+    right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    outline: none;
+    color: white;
+    font-weight: 700;
+    font-family: monteserrat;
+    margin-bottom: 20px;
+    transition-duration: .7s;
+}
+
+.sub:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.img2 {
+    display: inline;
+    width: 20px;
+    position: relative;
+    top: 35px;
+    left: 95px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        overflow: hidden;
+    }
+    .container {
+        box-shadow: none;
+        width: 50%;
+        height: 60%;
+        border-radius: 20px;
+        word-wrap: break-word;
+        position: absolute;
+        left: 25%;
+        top: 15%;
+        box-shadow: 0 0 15px #c9bbbb;
+    }
+
+    img {
+        width: 50%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+   
+
+    .gab,
+    p,
+    .cart,
+    .img2,
+    .f6 {
+        position: relative;
+        left: 50%;
+        top: -100%;
+        margin: 0 2%;
+    }
+
+    .perfume {
+        margin: 5% 2% 2%;
+    }
+
+    .gab {
+        font-size: 80px;
+        word-wrap: break-word;
+        width: 50%;
+    }
+
+    .a {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 2% 2%;
+        word-wrap: break-word;
+        width: 40%;
+    }
+
+    .f4 {
+        font-size: 50px;
+        display: inline;
+    }
+
+    .f6 {
+        font-size: 30px;
+        position: relative;
+        left: 80%;
+    }
+
+    .sub {
+        /* display: inline; */
+        width: 40%;
+        position: relative;
+        left: -12.5%;
+        top: 40px;
+        padding: 25px;
+        border-radius: 20px;
+    }
+}
+
+/* @media screen and (min-width: 1453px) {
+    .container {
+        /* display: none; */
+        /* line-height: 20px; */
+    }
+    .gab {
+        font-size: 300%;
+    }
+    .f6 {
+        left: 40%;
+        font-size: 150%;
+    }
+    .sub {
+           margin: 0 10%;
+    }
+} */
